@@ -22,17 +22,32 @@
     
     <div class = "container">
         <form>
-            <label for = "nome">Nome completo:</label>
-            <input type = "text" name = "nome" id = "nome" class = "input1">
+            <div class = "div1">
+                <label for = "nome" class = "label1">Nome completo:</label>
+                <input type = "text" name = "nome" id = "nome" class = "input1">
 
-            <label for = "telefone">Telefone:</label>
-            <input type = "text" name = "telefone" id = "telefone" class = "input1">
+                <label for = "telefone" class = "label1">Telefone:</label>
+                <input type = "text" name = "telefone" id = "telefone" class = "input1">
 
-            <label for = "email">E-mail::</label>
-            <input type = "email" name = "email" id = "email" class = "input1">
+                <label for = "email" class = "label1">E-mail:</label>
+                <input type = "email" name = "email" id = "email" class = "input1">
 
-            <label for = "senha">Senha:</label>
-            <input type = "text" name = "senha" id = "senha" class = "input1">
+                <label for = "senha" class = "label1">Senha:</label>
+                <input type = "password" name = "senha" id = "senha" class = "input1">
+            </div>
+
+            <div class = "div2">
+                <legend class = "sex">Sexo:</legend>
+                <label for = "masculino" class = "label2"> 
+                    <input type = "radio" name = "masculino" id = "masculino" value = "masculino" class = "input2">
+                    Masculino
+                </label>
+
+                <label for = "feminino" class = "label2"> 
+                    <input type = "radio" name = "feminino" id = "feminino" value = "feminino" class = "input2">
+                    Feminino
+                </label>
+            </div>
 
         </form>
     </div>
