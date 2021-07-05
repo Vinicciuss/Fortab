@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: MedusaGothic D;
+    src: url("/Fonts/MedusaGothic D.otf");
+}
+
+@font-face {
+    font-family: Love Story Rough;
+    src: url("/Fonts/Love\ Story\ Rough.ttf");
+}
+
+@font-face {
+    font-family: Saphira DEMO;
+    src: url("/Fonts/Saphira\ DEMO.otf");
+}
+
+@font-face {
+    font-family: BLKCHCRY;
+    src: url("/Fonts/BLKCHCRY.TTF");
+}
+
+body {
+    min-height: 100vh;
+    background: #000915;
+    overflow-x: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 86%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 3vw;
+    font-family: Love Story Rough;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul li {
+    list-style: none;
+    margin-left: 35px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    padding: 6px 15px;
+    font-size: 1vw;
+    color: #ffffff;
+    font-family: MedusaGothic D;
+    border-radius: 20px;
+}
+
+header nav ul li a:hover, 
+header nav ul li a.active {
+    background: #ffffff;
+    color: #041429;
+}
+
+.contain {
+    margin-top: 20vh;
+    margin-left: 10vh;
+    margin-right: 80vh;
+}
+
+.contain h1 {
+    font-family: Saphira DEMO;
+    color: #ffffff;
+    padding-bottom: 10px;
+    font-size: 40px;
+}
+.contain p {
+    font-family: monospace;
+    color: #ffffff;
+    padding-bottom: 28px;
+    font-size: 17px;
+}
+
+.sig {
+    position: absolute;
+    top: 200px;
+    left: 900px;
+}
+
+.sig img {
+    width: 350px;
+}
+

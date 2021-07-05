@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: MedusaGothic D;
+    src: url("/Fonts/MedusaGothic D.otf");
+}
+
+@font-face {
+    font-family: Love Story Rough;
+    src: url("/Fonts/Love\ Story\ Rough.ttf");
+}
+
+@font-face {
+    font-family: Saphira DEMO;
+    src: url("/Fonts/Saphira\ DEMO.otf");
+}
+
+@font-face {
+    font-family: BLKCHCRY;
+    src: url("/Fonts/BLKCHCRY.TTF");
+}
+
+body {
+    min-height: 100vh;
+    background: #000915;
+    overflow-x: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 86%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 3vw;
+    font-family: Love Story Rough;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul li {
+    list-style: none;
+    margin-left: 35px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    padding: 6px 15px;
+    font-size: 1vw;
+    color: #ffffff;
+    font-family: MedusaGothic D;
+    border-radius: 20px;
+}
+
+header nav ul li a:hover, 
+header nav ul li a.active {
+    background: #ffffff;
+    color: #041429;
+}
+
+.Title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 10px 1px;
+}
+
+.Title h1 {
+    font-family: Saphira DEMO;
+    color: #ffffff;
+    font-size: 36px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    padding: 40px 70px 50px;
+}
+
+.container .card {
+    position: relative;
+    min-width: 238px;
+    height: 300px;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
+    inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.3),
+    -5px -5px 15px rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    margin: 30px;
+}
+
+.container .card .box {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    background: url(/Imagens/Tentativa.jpg) ;
+    border-radius: 15px;
+    border: 2px solid #1e1f23;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.4s, box-shadow 0.4s;
+}
+
+.container .card:hover .box {
+    transform:  translateY(-50px);
+    box-shadow: 0px 30px 40px rgba(93, 223, 255, 0.5);
+}
+
+.container .card .box .content {
+    padding: 20px;
+    text-align: center;
+}
+
+.container .card .box .content img {
+    width: 97%;
+}
+
+.container .card .box .content h2 {
+    font-family: BLKCHCRY;
+    color: #ffffff;
+}
+
+.container .card .box:hover .content h2 {
+    background: #ffffff;
+    color: #041429;
+
+    border-radius: 15px;
+}
+
+footer {
+    display: flex;
+    background: #000000;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    color: #ffffff;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.copyright h2 {
+    font-family: Love Story Rough;
+    font-size: 30px;
+    margin-bottom: 5px;
+
+}
+
+.copyright p {
+    font-family: monospace;
+    width: 210px;
+}
