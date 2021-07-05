@@ -76,6 +76,18 @@ header nav ul li a.active {
 }
 
 
+form {
+    position: relative;
+    background: #ffffff;
+    width: 600px;
+    height: 800px;
+    top: 127px;
+    left: 28%;
+    border-radius: 15px ;
+    box-shadow: 0em 1em 3em 1em rgba(93, 223, 255, 0.5);
+}
+
+
 
 
 footer {
