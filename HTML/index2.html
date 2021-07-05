@@ -22,33 +22,131 @@
     
     <div class = "container">
         <form>
+            <h2 class = "registro">Registro</h2>
             <div class = "div1">
                 <label for = "nome" class = "label1">Nome completo:</label>
-                <input type = "text" name = "nome" id = "nome" class = "input1">
+                <input type = "text" name = "nome" id = "nome" class = "input1" required>
 
                 <label for = "telefone" class = "label1">Telefone:</label>
-                <input type = "text" name = "telefone" id = "telefone" class = "input1">
+                <input type = "text" name = "telefone" id = "telefone" class = "input1" required placeholder = "(XX) XXXXX-XXXX">
 
                 <label for = "email" class = "label1">E-mail:</label>
-                <input type = "email" name = "email" id = "email" class = "input1">
+                <input type = "email" name = "email" id = "email" class = "input1" required placeholder = "Ex: jacadoqueijo@gmail.com">
 
                 <label for = "senha" class = "label1">Senha:</label>
-                <input type = "password" name = "senha" id = "senha" class = "input1">
+                <input type = "password" name = "senha" id = "senha" class = "input1" required placeholder = "------------">
             </div>
 
             <div class = "div2">
                 <legend class = "sex">Sexo:</legend>
                 <label for = "masculino" class = "label2"> 
-                    <input type = "radio" name = "masculino" id = "masculino" value = "masculino" class = "input2">
+                    <input type = "radio" name = "sexo" id = "masculino" value = "masculino" class = "input2" required>
                     Masculino
                 </label>
 
                 <label for = "feminino" class = "label2"> 
-                    <input type = "radio" name = "feminino" id = "feminino" value = "feminino" class = "input2">
+                    <input type = "radio" name = "sexo" id = "feminino" value = "feminino" class = "input2" required>
                     Feminino
                 </label>
             </div>
 
+            <div class = "div3">
+                <label for = "data" class = "label3">Data de nascimento:</label>
+                <input type="date" name = "data" id = "data" class = "input3" required>
+                
+                <label for = "hora" class = "label3">Horário do seu nascimento:</label>
+                <input type = "time" name = "hora" id = "hora" class = "input3" required>
+            </div>
+
+            <div class = "div4">
+                <img src = "/Imagens/Roda/imagen3.png" class = "img1">
+                <legend class = "signo">Escolha seu signo:</legend>
+                <ul class = "sig-l">
+                    <li>
+                        <label for = "signo" class = "label4">
+                            <input type = "radio" name = "signo" id = "signo" class = "input4" required>
+                            Áries
+                        </label>
+                    </li>
+                    <li>
+                        <label for = "signo" class = "label4">
+                            <input type = "radio" name = "signo" id = "signo" class = "input4" required>
+                            Touro
+                        </label>
+                    </li>
+                    <li>
+                        <label for = "signo" class = "label4">
+                            <input type = "radio" name = "signo" id = "signo" class = "input4" required>
+                            Gêmeos
+                        </label>
+                    </li>
+                    <li>
+                        <label for = "signo" class = "label4">
+                            <input type = "radio" name = "signo" id = "signo" class = "input4" required>
+                            Câncer
+                        </label>
+                    </li>
+                    <li>
+                        <label for = "signo" class = "label4">
+                            <input type = "radio" name = "signo" id = "signo" class = "input4" required>
+                            Leão
+                        </label>
+                    </li>
+                    <li>
+                        <label for = "signo" class = "label4">
+                            <input type = "radio" name = "signo" id = "signo" class = "input4" required>
+                            Virgem
+                        </label>
+                    </li>
+                    <li>
+                        <label for = "signo" class = "label4">
+                            <input type = "radio" name = "signo" id = "signo" class = "input4" required>
+                            Libra
+                        </label>
+                    </li>
+                    <li>
+                        <label for = "signo" class = "label4">
+                            <input type = "radio" name = "signo" id = "signo" class = "input4" required>
+                            Escorpião
+                        </label>
+                    </li>
+                    <li>
+                        <label for = "signo" class = "label4">
+                            <input type = "radio" name = "signo" id = "signo" class = "input4" required>
+                            Sagitário
+                        </label>
+                    </li>
+                    <li>
+                        <label for = "signo" class = "label4">
+                            <input type = "radio" name = "signo" id = "signo" class = "input4" required>
+                            Capricórnio
+                        </label>
+                    </li>
+                    <li>
+                        <label for = "signo" class = "label4">
+                            <input type = "radio" name = "signo" id = "signo" class = "input4" required>
+                            Aquário
+                        </label>
+                    </li>
+                    <li>
+                        <label for = "signo" class = "label4">
+                            <input type = "radio" name = "signo" id = "signo" class = "input4" required>
+                            Peixes
+                        </label>
+                    </li>
+                </ul>
+            </div>
+            <div class = "div5">
+                <label for = "arquivo" class = "label5">Envie uma foto par perfil:</label>    
+                <input type="file" name = "arquivo" id = "arquivo" class = "input5" required>
+            </div>
+            <div class = "div6">
+                <label for = "oferta" class = "label6">
+                    <input type="checkbox" name = "oferta" id = "oferta" class = "input6" checked> 
+                    Deseja receber ofertas especiais pelo seu e-mail?
+                </label>
+            </div>
+            <input type ="submit" name = "enviar" value = "Enviar" class = "botao">
         </form>
     </div>
     
