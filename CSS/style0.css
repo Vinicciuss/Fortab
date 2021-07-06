@@ -171,12 +171,65 @@ section img {
     padding: 1px;
 }
 
+.tabela {
+    position: relative;
+    left: 28%;
+    margin-top: 40px;
+    background: #ffffff;
+    width: 400px;
+    height: 285px;
+    padding-top: 10px;
+    border-radius: 15px;
+    box-shadow: 0em 0.7em 2em 0.7em rgba(93, 223, 255, 0.5);
+
+}
+
+.horos {
+    text-align: center;
+    font-family: monospace;
+    color: rgb(3, 109, 191); 
+}
+
+table {
+    position: relative;
+    width: 350px;
+    margin: 0 auto;
+    top: 10px;
+    border-collapse: collapse;
+}
+
+thead {
+    background: rgb(3, 109, 191);
+    color: #ffffff;
+    font-family: monospace;
+}
+
+td, th {
+    border: 1px solid #2578f55f;
+    padding: 5px 10px;
+    font-family: monospace;
+    font-size: 18px;
+}
+
+td {
+    font-size: 15px;
+    text-align: center;
+}
+
+.s {
+    text-align: start;
+    font-weight: bolder;
+    color: #ffffff;
+    background: rgb(40, 160, 252);
+}
+
 footer {
     display: flex;
     background: #000000;
     justify-content: center;
     align-items: center;
 }
+
 .copyright {
     color: #ffffff;
     margin-top: 20px;
